@@ -1,0 +1,12 @@
+C:\Users\40287172\Downloads\testingStuff\TestProject\BookingTest\obj\Debug\BookingTest.csprojResolveAssemblyReference.cache
+C:\Users\40287172\Downloads\testingStuff\TestProject\BookingTest\bin\Debug\BookingTest.dll
+C:\Users\40287172\Downloads\testingStuff\TestProject\BookingTest\bin\Debug\BookingTest.pdb
+C:\Users\40287172\Downloads\testingStuff\TestProject\BookingTest\obj\Debug\BookingTest.dll
+C:\Users\40287172\Downloads\testingStuff\TestProject\BookingTest\obj\Debug\BookingTest.pdb
+C:\Users\40287172\Downloads\testingStuff\TestProject\BookingTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\testingStuff\testingStuff\TestProject\BookingTest\bin\Debug\BookingTest.dll
+E:\testingStuff\testingStuff\TestProject\BookingTest\bin\Debug\BookingTest.pdb
+E:\testingStuff\testingStuff\TestProject\BookingTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\testingStuff\testingStuff\TestProject\BookingTest\obj\Debug\BookingTest.csprojResolveAssemblyReference.cache
+E:\testingStuff\testingStuff\TestProject\BookingTest\obj\Debug\BookingTest.dll
+E:\testingStuff\testingStuff\TestProject\BookingTest\obj\Debug\BookingTest.pdb

@@ -1,0 +1,14 @@
+C:\Users\40287172\Downloads\testingStuff\TestProject\ExtraStuff\bin\Debug\ExtraStuff.dll
+C:\Users\40287172\Downloads\testingStuff\TestProject\ExtraStuff\bin\Debug\ExtraStuff.pdb
+C:\Users\40287172\Downloads\testingStuff\TestProject\ExtraStuff\bin\Debug\BusinessObjects.dll
+C:\Users\40287172\Downloads\testingStuff\TestProject\ExtraStuff\bin\Debug\BusinessObjects.pdb
+C:\Users\40287172\Downloads\testingStuff\TestProject\ExtraStuff\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\40287172\Downloads\testingStuff\TestProject\ExtraStuff\obj\Debug\ExtraStuff.dll
+C:\Users\40287172\Downloads\testingStuff\TestProject\ExtraStuff\obj\Debug\ExtraStuff.pdb
+E:\testingStuff\testingStuff\TestProject\ExtraStuff\bin\Debug\ExtraStuff.dll
+E:\testingStuff\testingStuff\TestProject\ExtraStuff\bin\Debug\ExtraStuff.pdb
+E:\testingStuff\testingStuff\TestProject\ExtraStuff\bin\Debug\BusinessObjects.dll
+E:\testingStuff\testingStuff\TestProject\ExtraStuff\bin\Debug\BusinessObjects.pdb
+E:\testingStuff\testingStuff\TestProject\ExtraStuff\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+E:\testingStuff\testingStuff\TestProject\ExtraStuff\obj\Debug\ExtraStuff.dll
+E:\testingStuff\testingStuff\TestProject\ExtraStuff\obj\Debug\ExtraStuff.pdb

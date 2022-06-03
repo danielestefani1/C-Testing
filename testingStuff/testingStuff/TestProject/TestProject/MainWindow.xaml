@@ -1,0 +1,50 @@
+﻿<Window x:Class="Presentation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="814">
+    <Grid Margin="0,0,-303,0">
+        <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="25,264,0,0" Click="btnClearClick"/>
+        <Button x:Name="btnFind" Content="Find" HorizontalAlignment="Left" Margin="141,264,0,0" VerticalAlignment="Top" Width="75" Click="btnFind_Click"/>
+        <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="248,264,0,0" VerticalAlignment="Top" Width="75" Click="btnSave_Click"/>
+        <Label Content="Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,28,0,0" Width="124"/>
+        <TextBox x:Name="NameTxt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="96,28,0,0" TextChanged="txtCode_TextChanged" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="292" Margin="464,18,0,0" Stroke="Black" VerticalAlignment="Top" Width="309"/>
+        <TextBox x:Name="ChaletTxt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="581,252,0,0" TextChanged="ChaletTxt_TextChanged"/>
+        <TextBox x:Name="txtStudentName" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="581,278,0,0"/>
+        <Label x:Name="lblMatric" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="482,249,0,0" Width="99"/>
+        <Label x:Name="lblName" Content="Total" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="495,275,0,0" Width="81"/>
+        <TextBox x:Name="OutputTxt" HorizontalAlignment="Left" Height="177" Margin="482,32,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="274" TextChanged="Output_TextChanged"/>
+        <TextBox x:Name="SurnameTxt" HorizontalAlignment="Left" Height="23" Margin="318,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="SurnameTxt_TextChanged"/>
+        <Label x:Name="label" Content="Surname" HorizontalAlignment="Left" Margin="248,25,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="__" HorizontalAlignment="Left" Margin="96,78,0,0" VerticalAlignment="Top" Width="120" FirstDayOfWeek="Monday"/>
+        <DatePicker x:Name="DepartureBox" HorizontalAlignment="Left" Margin="316,77,0,0" VerticalAlignment="Top" Width="120" SelectedDateChanged="dateChanged" FirstDayOfWeek="Monday"/>
+        <Label x:Name="label1" Content="Arrival" HorizontalAlignment="Left" Margin="25,78,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Departure" HorizontalAlignment="Left" Margin="248,76,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="BreakfastCh" Content="Breakfast" HorizontalAlignment="Left" Margin="96,207,0,0" VerticalAlignment="Top" Checked="checkBox_Checked"/>
+        <CheckBox x:Name="Service" Content="Room Service" HorizontalAlignment="Left" Margin="96,187,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="Dinner" Content="Dinner" HorizontalAlignment="Left" Margin="96,237,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="IdTxt" HorizontalAlignment="Left" Height="23" Margin="96,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="IdTxt_TextChanged_1"/>
+        <Label x:Name="label3" Content="Id Number" HorizontalAlignment="Left" Margin="25,120,0,0" VerticalAlignment="Top" Width="73"/>
+        <ComboBox x:Name="roomTypeComboBox" HorizontalAlignment="Left" Margin="318,120,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="roomTypeComboBox_SelectionChanged">
+            <ComboBoxItem Content="1"/>
+            <ComboBoxItem Content="2"/>
+            <ComboBoxItem Content="3"/>
+            <ComboBoxItem Content="5"/>
+            <ComboBoxItem Content="6"/>
+            <ComboBoxItem Content="7"/>
+            <ComboBoxItem Content="8"/>
+            <ComboBoxItem Content="9"/>
+            <ComboBoxItem Content="10"/>
+            <ComboBoxItem Content="11"/>
+        </ComboBox>
+        <Button x:Name="AddButtonbtn" Content="Add" Click="AddButton_Click" Margin="600,219,434,80" Width="75" Height="20"/>
+        <TextBlock x:Name="AddressTxt" HorizontalAlignment="Left" Margin="96,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"><InlineUIContainer>
+                <TextBox x:Name="textBox" Height="23" TextWrapping="Wrap" Text="TextBox" Width="120"/>
+            </InlineUIContainer></TextBlock>
+        <Label x:Name="Passport_No" Content="Address" HorizontalAlignment="Left" Margin="31,161,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="318,161,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label4" Content="Passport&#xD;&#xA;" HorizontalAlignment="Left" Margin="248,157,0,0" VerticalAlignment="Top" Width="64"/>
+        <Button x:Name="UpdateBtn" Content="Update" HorizontalAlignment="Left" Margin="352,264,0,0" VerticalAlignment="Top" Width="75" Click="UpdateBtn_Click"/>
+
+    </Grid>
+</Window>
